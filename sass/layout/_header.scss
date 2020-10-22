@@ -75,12 +75,12 @@
 .address:focus,
 .address-link:hover,
 .address-link:focus {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .address-link:hover .address-svg,
 .address-link:focus .address-svg {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 
 .address-svg {

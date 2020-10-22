@@ -24,7 +24,7 @@
 
   background: #f5f4fa;
   border-radius: 4px;
-  color: var(--title-color);
+  color: $title-color;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -36,7 +36,7 @@
   line-height: 2;
   letter-spacing: 0.06em;
 
-  color: var(--title-color);
+  color: $title-color;
 }
 
 .portfolio-navigations-subtitle {
@@ -46,13 +46,13 @@
   line-height: 1.875;
   letter-spacing: 0.03em;
 
-  color: var(--subtitle-color);
+  color: $subtitle-color;
 }
 
 .portfolio-navigations-button:hover,
 .portfolio-navigations-button:focus {
   color: #fff;
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 
 .porfolio-nav-title {
@@ -63,7 +63,7 @@
   line-height: 2;
   letter-spacing: 0.06em;
 
-  color: var(--title-color);
+  color: $title-color;
 }
 
 .porfolio-nav-subtitle {
@@ -74,7 +74,7 @@
   line-height: 1.875;
   letter-spacing: 0.03em;
 
-  color: var(--subtitle-color);
+  color: $subtitle-color;
 }
 
 .portfolio-secondary-navigation {
@@ -141,7 +141,7 @@
 }
 
 .portfolio-overley-text {
-  font-family: var(--main-font);
+  font-family: $main-font;
   font-size: 18px;
   line-height: 1.556;
   letter-spacing: 0.03em;

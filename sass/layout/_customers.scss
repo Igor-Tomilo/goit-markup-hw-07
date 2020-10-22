@@ -22,11 +22,11 @@
 }
 
 .customers-link:hover {
-  border-color: var(--accent-color);
+  border-color: $accent-color;
 }
 
 .customers-link:hover .customers-svg {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 
 .customers-svg {
