@@ -29,6 +29,13 @@ img {
   margin: 0 auto;
 }
 
+.container-checkbox {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -39,16 +46,16 @@ img {
   color: #2094f3;
 }
 
+.logo-img {
+  margin-right: 90px;
+}
+
 .logo-color-light-theme {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   color: #000000;
-}
-
-.logo-img {
-  margin-right: 90px;
 }
 
 .logo-color-dark-theme {

@@ -6,25 +6,26 @@
   line-height: 1.192;
   letter-spacing: 0.03em;
   color: #2094f3;
-}
 
-.logo-color-light-theme {
-  font-family: $secondary-font;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  color: $logo-color-light-theme;
-}
-.logo-img {
-  margin-right: 90px;
-}
+  &-img {
+    margin-right: 90px;
+  }
 
-.logo-color-dark-theme {
-  font-family: $secondary-font;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.192;
-  letter-spacing: 0.03em;
-  color: $logo-color-dark-theme;
+  &-color-light-theme {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    color: $logo-color-light-theme;
+  }
+
+  &-color-dark-theme {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: $logo-color-dark-theme;
+  }
 }
