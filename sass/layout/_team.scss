@@ -44,6 +44,7 @@
     text-align: center;
   }
 }
+
 .social-link {
   display: flex;
   justify-content: space-between;
@@ -63,8 +64,7 @@
     &:focus {
     background-color: $accent-color;}
   }
-    
-  }
+}
 
 .social-link-svg {
   fill: #afb1b8;
@@ -72,8 +72,7 @@
 
   .social-link-link:hover &,
   .social-link-link:focus & {
-  fill: #fff;
-}
+  fill: #fff;}
 }
 
     
