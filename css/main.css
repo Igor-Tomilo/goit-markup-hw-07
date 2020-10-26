@@ -425,6 +425,15 @@ img {
   color: #ffffff;
 }
 
+.qualities-container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.qualities-list {
+  display: flex;
+}
+
 .qualities-list-heading {
   font-weight: 700;
   font-size: 14px;
@@ -448,6 +457,22 @@ img {
   background-size: 70px;
 }
 
+.qualities-list-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.qualities-items {
+  width: 270px;
+}
+
+.qualities-items:not(:last-child) {
+  margin-right: 30px;
+}
+
 .attention::before {
   background-image: url(../images/qualities/satellite.svg);
 }
@@ -462,31 +487,6 @@ img {
 
 .technologies::before {
   background-image: url(../images/qualities/astronaut.svg);
-}
-
-.qualities-list-text {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-
-.qualities-container {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.qualities-items:not(:last-child) {
-  margin-right: 30px;
-}
-
-.qualities-items {
-  width: 270px;
-}
-
-.qualities-list {
-  display: flex;
 }
 
 .works-section {
@@ -538,10 +538,15 @@ img {
   background: #f5f4fa;
 }
 
-.team-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  text-align: center;
+.team-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-list-block {
+  padding: 30px 32px;
+  /* border-radius: 0px 0px 4px 4px; */
+  background-color: #fff;
 }
 
 .team-list-item {
@@ -551,6 +556,7 @@ img {
 }
 
 .team-list-names {
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.187;
@@ -568,19 +574,10 @@ img {
   color: #757575;
 }
 
-.team-list {
-  display: flex;
-  justify-content: space-between;
-}
-
-.team-list-block {
-  padding: 30px 32px;
-  /* border-radius: 0px 0px 4px 4px; */
-  background-color: #fff;
-}
-
-.team-list-names {
-  margin-bottom: 10px;
+.team-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  text-align: center;
 }
 
 .social-link {
@@ -600,19 +597,18 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link-link:hover,
-.social-link-link:focus {
+.social-link:hover, .social-link:focus {
   background-color: #2094f3;
-}
-
-.social-link-link:hover .social-link-svg,
-.social-link-link:focus .social-link-svg {
-  fill: #fff;
 }
 
 .social-link-svg {
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-link-link:hover .social-link-svg,
+.social-link-link:focus .social-link-svg {
+  fill: #fff;
 }
 
 .customers {
