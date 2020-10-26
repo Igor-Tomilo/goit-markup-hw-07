@@ -1,5 +1,10 @@
-.portfolio-section {
-  padding-top: 94px;
+.portfolio {
+  &-section {
+    padding-top: 94px;
+  }
+  &-img {
+    position: relative;
+  }
 }
 
 .portfolio-secondary-navigation {
@@ -25,6 +30,15 @@
   position: relative;
   overflow: hidden;
 
+  &-subtitle {
+    position: relative;
+    background-color: #fff;
+    padding: 20px 24px;
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+  }
+
   &:hover,
   &:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -32,20 +46,7 @@
   }
 }
 
-.card-subtitle {
-  position: relative;
-  background-color: #fff;
-  padding: 20px 24px;
-  border-left: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
-}
-
-.portfolio-img {
-  position: relative;
-}
-
-.portfolio-overley {
+. .portfolio-overley {
   position: absolute;
   top: 0;
   display: flex;
