@@ -597,7 +597,7 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link:hover, .social-link:focus {
+.social-link-link:hover, .social-link-link:focus {
   background-color: #2094f3;
 }
 
