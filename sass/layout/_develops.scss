@@ -1,20 +1,18 @@
 .works {
   &-section {
-  padding-bottom: 95px;
-  text-align: center;
+    padding-bottom: 95px;
+    text-align: center;
 
-  &-list {
-    display: flex;
-    justify-content: space-between;
+    &-list {
+      display: flex;
+      justify-content: space-between;
 
-    &-wrapper {
-      position: relative;
+      &-wrapper {
+        position: relative;
+      }
     }
-  }}
+  }
 }
-
-  
-
 
 .develops {
   &-overley {
@@ -38,5 +36,13 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
   }
+}
 
+.works-list {
+  display: flex;
+  justify-content: space-between;
+
+  &-wrapper {
+    position: relative;
+  }
 }

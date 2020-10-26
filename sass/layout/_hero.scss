@@ -11,25 +11,24 @@
     url('../images/hero/hero-img.jpg');
 
   background-color: #c4c4c4;
-}
 
-.hero-section {
-  text-align: center;
-  padding-top: 200px;
-  padding-left: 235px;
-  padding-right: 235px;
-  padding-bottom: 280px;
-}
+  &-section {
+    text-align: center;
+    padding-top: 200px;
+    padding-left: 235px;
+    padding-right: 235px;
+    padding-bottom: 280px;
+  }
+  &-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    width: 696px;
+    height: 120px;
 
-.hero-title {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.364;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  margin-bottom: 30px;
-  width: 696px;
-  height: 120px;
-
-  color: #ffffff;
+    color: #ffffff;
+  }
 }
